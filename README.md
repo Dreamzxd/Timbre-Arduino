@@ -15,23 +15,23 @@ Este proyecto tiene como objetivo automatizar el timbre de una institución educ
 
 🔌 Materiales:
 
-Componente	              Cantidad
+Componente	      |        Cantidad
 
--Arduino UNO	        →        1
+- Arduino UNO	        →        1
 
--Módulo RTC DS1302      →    	1
+- Módulo RTC DS1302      →    	1
 
--Pantalla LCD 16x2 I2C	   →   1
+- Pantalla LCD 16x2 I2C	   →   1
 
--Módulo relé JQC-3FF-S-Z   → 	1
+- Módulo relé JQC-3FF-S-Z   → 	1
 
--Timbre industrial 110V	 →  1
+- Timbre industrial 110V	 →  1
 
--Protoboard o PCB	    →      1
+- Protoboard o PCB	    →      1
 
--Cables Dupont	Varios
+- Cables Dupont	Varios
 
--Fuente de alimentación	5V y fuente 110V para el timbre
+- Fuente de alimentación	5V y fuente 110V para el timbre
 
 🔗 Conexiones:
 
@@ -39,39 +39,39 @@ Componente	              Cantidad
 
 DS1302 Pin	 |   Arduino Pin
 
--VCC	      →      5V
+- VCC	      →      5V
 
--GND        →    	GND
+- GND        →    	GND
 
--CLK	      →      6
+- CLK	      →      6
 
--DAT	     →       7
+- DAT	     →       7
 
--RST	     →       8
+- RST	     →       8
 
 ⚠ Puedes ajustar estos pines según tu código.
 
 🖥 LCD I2C
 
--LCD Pin     →   	Arduino Pin
+- LCD Pin     →   	Arduino Pin
 
--VCC	    →        5V
+- VCC	    →        5V
 
--GND	    →        GND
+- GND	    →        GND
 
--SDA	     →       A4
+- SDA	     →       A4
 
--SCL      →      	A5
+- SCL      →      	A5
 
 🔔 Relé
 
 Relé Pin	   |   Arduino Pin
 
--IN (señal)	 →  9
+- IN (señal)	 →  9
 
--VCC      →     	5V
+- VCC      →     	5V
 
--GND	      →      GND
+- GND	      →      GND
 
 🔌 Conexión del Timbre (110V)
 
@@ -85,8 +85,8 @@ Advertencia: Esta parte trabaja con corriente alterna. Asegúrate de tomar preca
 
 💻 Librerías necesarias:
 
--Asegúrate de incluir estas librerías en tu entorno de desarrollo (Arduino IDE):
+- Asegúrate de incluir estas librerías en tu entorno de desarrollo (Arduino IDE):
 
--DS1302.h o RTClib compatible con el módulo RTC
+- DS1302.h o RTClib compatible con el módulo RTC
 
--Adafruit_LiquidCrystal.h o LiquidCrystal_I2C.h para la pantalla LCD
+- Adafruit_LiquidCrystal.h o LiquidCrystal_I2C.h para la pantalla LCD
