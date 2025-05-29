@@ -13,49 +13,75 @@ Este proyecto tiene como objetivo automatizar el timbre de una institución educ
 
 - Separación segura entre la lógica de bajo voltaje y el timbre de 110V.
 
-🔌 Materiales
-Componente	Cantidad
-Arduino UNO	1
-Módulo RTC DS1302	1
-Pantalla LCD 16x2 I2C	1
-Módulo relé JQC-3FF-S-Z	1
-Timbre industrial 110V	1
-Protoboard o PCB	1
+🔌 Materiales:
+
+Componente	              Cantidad
+
+Arduino UNO	                1
+
+Módulo RTC DS1302          	1
+
+Pantalla LCD 16x2 I2C	      1
+
+Módulo relé JQC-3FF-S-Z    	1
+
+Timbre industrial 110V	    1
+
+Protoboard o PCB	          1
+
 Cables Dupont	Varios
+
 Fuente de alimentación	5V y fuente 110V para el timbre
 
-🔗 Conexiones
+🔗 Conexiones:
+
 🕒 RTC DS1302
-DS1302 Pin	Arduino Pin
-VCC	5V
-GND	GND
-CLK	6
-DAT	7
-RST	8
+
+DS1302 Pin	    Arduino Pin
+
+VCC	            5V
+
+GND            	GND
+
+CLK	            6
+
+DAT	            7
+
+RST	            8
 
 ⚠ Puedes ajustar estos pines según tu código.
 
 🖥 LCD I2C
-LCD Pin	Arduino Pin
-VCC	5V
-GND	GND
-SDA	A4
-SCL	A5
+
+LCD Pin        	Arduino Pin
+
+VCC	            5V
+
+GND	            GND
+
+SDA	            A4
+
+SCL            	A5
 
 🔔 Relé
-Relé Pin	Arduino Pin
-IN (señal)	9
-VCC	5V
-GND	GND
+
+Relé Pin	      Arduino Pin
+
+IN (señal)	    9
+
+VCC            	5V
+
+GND	            GND
 
 🔌 Conexión del Timbre (110V)
+
 Advertencia: Esta parte trabaja con corriente alterna. Asegúrate de tomar precauciones.
 
-COM (relé) → Línea directa del 110V
+- COM (relé) → Línea directa del 110V
 
-NO (Normalmente Abierto) → Al timbre
+- NO (Normalmente Abierto) → Al timbre
 
-El otro cable del timbre → Neutro del 110V
+- El otro cable del timbre → Neutro del 110V
 
 💻 Librerías necesarias:
 
