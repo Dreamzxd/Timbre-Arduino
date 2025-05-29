@@ -1,6 +1,7 @@
-#📘 Timbre Escolar Automático con Arduino
+📘 Timbre Escolar Automático con Arduino
 
-🛠 Descripción
+🛠 Descripción:
+
 Este proyecto tiene como objetivo automatizar el timbre de una institución educativa utilizando una placa Arduino UNO, un módulo RTC para controlar las horas de activación, una pantalla LCD para visualizar la hora actual y un relé para controlar el timbre industrial a 110V.
 
 🎯 Funcionalidades: 
